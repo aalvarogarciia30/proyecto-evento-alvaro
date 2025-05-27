@@ -1,0 +1,88 @@
+body {
+    /* Centra el carrusel horizontalmente */
+    text-align: center;
+}
+header{
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 10px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    padding: 6px 14px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+.nav-links a:hover,
+.nav-links a:focus {
+    background: #fff;
+    color: #333;
+}
+.carrousel {
+    position: relative;
+    display: inline-block;
+    margin: 40px auto;
+    /* Elimina cualquier restricción de ancho */
+    width: auto;
+    vertical-align: top;
+}
+.carrousel-item{
+    height: 300px;
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    display: none;
+    /* Elimina el ancho fijo para que se ajuste a la imagen */
+    width: auto;
+    margin-bottom: 10px;
+    min-width: 0;
+    max-width: 100%;
+    /* Elimina el fondo gris si solo quieres mostrar la imagen */
+    /* background: none; */
+    box-sizing: border-box;
+    text-align: center;
+}
+.carrousel-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.carrousel-item-selected{
+    display: block;
+}
+.carrousel-nav{
+    /* Elimina el width: 100% para que no ocupe todo el ancho */
+    position: absolute;
+    padding: 20px 0;
+    bottom:0;
+    left:0;
+    text-align: center;
+    width: 100%;
+    /* Si quieres que los botones estén centrados bajo la imagen */
+}
+.carrousel-button{
+    width:10px;
+    height: 10px;
+    display: inline-block;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.carrousel-button-selected{
+    background:blue;
+}
