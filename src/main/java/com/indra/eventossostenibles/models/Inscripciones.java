@@ -1,20 +1,27 @@
 package main.java.com.indra.eventossostenibles.models;
 
 public class Inscripciones {
-    private int idUsuario;
-    private int idEvento;
+    private String nombreUsuario;
+    private String nombreEvento;
 
-    public Inscripciones(int idEvento, int idUsuario) {
-        this.idEvento = idEvento;
-        this.idUsuario = idUsuario;
-    }
-    //Getters and Setters
-    public int getIdEvento() {
-        return idEvento;
+    public Inscripciones(String nombreEvento, String nombreUsuario) {
+        this.nombreEvento = nombreEvento;
+        this.nombreUsuario = nombreUsuario;
     }
 
-    public int getIdUsuario() {
-        return idUsuario;
+    public String getNombreEvento() {
+        return nombreEvento;
     }
 
+    public void setNombreEvento(String nombreEvento) {
+        this.nombreEvento = nombreEvento;
+    }
+
+    public String getNombreUsuario() {
+        return nombreUsuario;
+    }
+
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
+    }
 }

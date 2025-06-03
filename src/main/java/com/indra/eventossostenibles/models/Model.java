@@ -20,12 +20,12 @@ public class Model {
         this.usuarios.add(new Usuario(nombre, email));
     }
     // Método para crear una inscripción
-    public void crearInscripcion(int idUsuario, int idEvento){
-        this.inscripciones.add(new Inscripciones(idEvento, idUsuario));
+    public void crearInscripcion(String nombreUsuario, String nombreEvento){
+        this.inscripciones.add(new Inscripciones(nombreUsuario, nombreEvento));
     }
     // Método para crear un evento
-    public void crearEvento(String nombre, Date fecha, int duracion, String estado){
-        this.evento.add(new Evento(nombre, fecha, duracion, estado));
+    public void crearEvento(String nombre, Date fecha, int duracion, String estado,String nombreOrganizador, String ubicacion, String categoria){
+        this.evento.add(new Evento(nombre, fecha, duracion, estado, nombreOrganizador, ubicacion, categoria));
     }
 
     // Método para crear un organizador
@@ -46,4 +46,17 @@ public class Model {
     public void setEventos(ArrayList<Evento> evento) {
         this.evento = evento;
     }
+    public ArrayList <Inscripciones> getInscripciones() {
+        return inscripciones;
+    }
+    public void setInscripciones(ArrayList<Inscripciones> inscripciones) {
+        this.inscripciones = inscripciones;
+    }
+    public ArrayList <Usuario> getUsuarios() {
+        return usuarios;
+    }
+    public void setUsuarios(ArrayList<Usuario> usuarios) {
+        this.usuarios = usuarios;
+    }
+    
 }
