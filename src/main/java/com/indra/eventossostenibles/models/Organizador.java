@@ -4,9 +4,9 @@ public class Organizador {
     
     private String nombre;
     private String email;
-    private String telefono;
+    private int telefono;
 
-    public Organizador(String nombre, String email, String telefono) {
+    public Organizador(String nombre, String email, int telefono) {
         this.nombre = nombre;
         this.email = email;
         this.telefono = telefono;
@@ -28,11 +28,11 @@ public class Organizador {
         this.email = email;
     }
 
-    public String getTelefono() {
+    public int getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
     @Override

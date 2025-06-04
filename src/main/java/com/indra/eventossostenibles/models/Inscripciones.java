@@ -4,11 +4,16 @@ public class Inscripciones {
     private String nombreUsuario;
     private String nombreEvento;
 
-    public Inscripciones(String nombreEvento, String nombreUsuario) {
+    public Inscripciones(String nombreUsuario, String nombreEvento) {
+        this.nombreUsuario = nombreUsuario;
         this.nombreEvento = nombreEvento;
+    }
+    public String getNombreUsuario() {
+        return nombreUsuario;
+    }
+    public void setNombreUsuario(String nombreUsuario) {
         this.nombreUsuario = nombreUsuario;
     }
-
     public String getNombreEvento() {
         return nombreEvento;
     }
@@ -17,11 +22,5 @@ public class Inscripciones {
         this.nombreEvento = nombreEvento;
     }
 
-    public String getNombreUsuario() {
-        return nombreUsuario;
-    }
-
-    public void setNombreUsuario(String nombreUsuario) {
-        this.nombreUsuario = nombreUsuario;
-    }
+    
 }

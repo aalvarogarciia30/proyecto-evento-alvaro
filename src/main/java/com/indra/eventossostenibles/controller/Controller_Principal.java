@@ -156,8 +156,8 @@ public class Controller_Principal {
             return;
         }
         System.out.println("Ingrese el teléfono del organizador:");
-        String telefono = scanner.nextLine();
-        if (telefono == null || telefono.isEmpty()) {
+        int telefono = scanner.nextInt();
+        if (telefono <= 0) {
             System.out.println("El teléfono del organizador no puede estar vacío. Volviendo al menú principal.");
             return;
         }

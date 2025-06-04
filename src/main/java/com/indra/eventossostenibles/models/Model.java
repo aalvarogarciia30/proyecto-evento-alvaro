@@ -29,7 +29,7 @@ public class Model {
     }
 
     // Método para crear un organizador
-    public void crearOrganizador(String nombre, String email, String telefono){
+    public void crearOrganizador(String nombre, String email, int telefono){
         this.organizador.add(new Organizador(nombre, email, telefono));
     }
 
@@ -37,26 +37,13 @@ public class Model {
     public ArrayList <Organizador> getOrganizadores() {
         return organizador;
     }
-    public void setOrganizadores(ArrayList<Organizador> organizador) {
-        this.organizador = organizador;
-    }
     public ArrayList <Evento> getEventos() {
         return evento;
-    }
-    public void setEventos(ArrayList<Evento> evento) {
-        this.evento = evento;
     }
     public ArrayList <Inscripciones> getInscripciones() {
         return inscripciones;
     }
-    public void setInscripciones(ArrayList<Inscripciones> inscripciones) {
-        this.inscripciones = inscripciones;
-    }
     public ArrayList <Usuario> getUsuarios() {
         return usuarios;
     }
-    public void setUsuarios(ArrayList<Usuario> usuarios) {
-        this.usuarios = usuarios;
-    }
-    
 }
