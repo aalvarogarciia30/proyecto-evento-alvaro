@@ -1,33 +1,57 @@
 body {
     /* Centra el carrusel horizontalmente */
     text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/fondoPantalla.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 header{
-    background: blue;
-    color: white;
-    padding: 20px;
+    background:#d4d5d0;
+    color: #1e514d;
+    padding: 1.5rem 0 1rem 0;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.header-logo {
+    height: 60px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(44,62,80,0.07);
 }
 .nav-links {
     display: flex;
     justify-content: center;
-    gap: 2em;
-    margin-top: 10px;
+    gap: 2rem;
+    margin-top: 1rem;
 }
 .nav-links a {
-    color: white;
+    color: #1e514d;
     text-decoration: none;
-    font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
-    padding: 6px 14px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.2s;
 }
-.nav-links a:hover,
-.nav-links a:focus {
-    background: #fff;
-    color: #333;
+.nav-links a:hover {
+    background: #388e3c;
 }
 .carrousel {
     position: relative;
@@ -36,6 +60,10 @@ header{
     /* Elimina cualquier restricción de ancho */
     width: auto;
     vertical-align: top;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
 }
 .carrousel-item{
     height: 300px;
@@ -49,11 +77,18 @@ header{
     width: auto;
     margin-bottom: 10px;
     min-width: 0;
-    max-width: 100%;
+    max-width: 100%;    
     /* Elimina el fondo gris si solo quieres mostrar la imagen */
     /* background: none; */
     box-sizing: border-box;
     text-align: center;
+    width: 500px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    background: #d4d5d0; /* Fondo igual que el header */
+    opacity: 0.97;
 }
 .carrousel-item img {
     max-width: 100%;
@@ -86,3 +121,192 @@ header{
 .carrousel-button-selected{
     background:blue;
 }
+main {
+    flex: 1;
+    padding: 2rem 0 2rem 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.event-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+.event-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 6px 24px rgba(44, 62, 80, 0.13);
+}
+.event-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.event-info {
+    padding: 1.2rem;
+}
+.event-info h2 {
+    margin-top: 0;
+    color: #2e7d32;
+    font-size: 1.3rem;
+}
+.event-info p {
+    margin: 0.5rem 0;
+    color: #444;
+}
+.event-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.event-detail-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+.event-detail-info h2 {
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+}
+.event-detail-info p {
+    color: #444;
+    margin: 0.3rem 0;
+}
+.event-list a {
+    text-decoration: none;
+}
+.back-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: #fff;
+    background: #2e7d32;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.back-button:hover {
+    background: #388e3c;
+}
+footer {
+    background: #d4d5d0;
+    color: #1e514d;
+    text-align: center;
+    padding: 1.2rem 0 1rem 0;
+    margin-top: auto;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+
+.footer-logo {
+    height: 60px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(44,62,80,0.07);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    outline: none;
+    transition: background 0.2s;
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    z-index: 11;
+}
+
+.dropbtn:focus {
+    background: #388e3c;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 170px;
+    box-shadow: 0 8px 16px rgba(44,62,80,0.12);
+    z-index: 10;
+    border-radius: 6px;
+    margin-top: 0.1rem;
+    left: 0;
+    /* Elimina right: 0; */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    /* Aumenta el área de hover para evitar que desaparezca al mover el ratón */
+    padding-top: 0.2rem;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content,
+.dropdown-content:hover,
+.dropdown-content:focus {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dropdown-content a {
+    color: #2e7d32;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1rem;
+    border-radius: 0;
+    background: none;
+    transition: background 0.2s;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus {
+    background-color: #e8f5e9;
+    outline: none;
+}
+

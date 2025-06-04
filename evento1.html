@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Página detalle del evento</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
     <header>
         <h1>
             <img src="./images/minsait.jpg" alt="Logo Minsait" class="header-logo">
@@ -28,25 +27,29 @@
             </div>
         </nav>
     </header>
-    <!--Aquí estarán la pagina principal con el carrusel de eventos-->
-    <div class="carrousel">
-        <a href="./evento1.html">
-            <img class="carrousel-item" src="./images/evento1.jpg" alt="Imagen 1">
-        </a>
-        <a href="./evento2.html">
-            <img class="carrousel-item" src="./images/evento2.jpg" alt="Imagen 2">
-        </a>
-        <a href="./evento3.html">
-            <img class="carrousel-item" src="./images/evento3.jpg" alt="Imagen 3">
-        </a>
-    </div>
-    
+    </header>
+    <main>
+        <section class="event-detail">
+            <img src="./images/evento1.jpg" alt="Feria de Sostenibilidad" class="event-detail-image">
+            <div class="event-detail-info">
+                <h2>Feria de Sostenibilidad</h2>
+                    <p><strong>Fecha:</strong> 15/06/2024</p>
+                    <p><strong>Lugar:</strong> Madrid</p>
+                    <p><strong>Duración:</strong> 50h</p>
+                    <p><strong>Categoría:</strong> Taller</p>
+                <p>
+                    Una feria dedicada a la sostenibilidad y el medio ambiente, con talleres y actividades para todas las edades. 
+                    Participa en iniciativas ecológicas y descubre nuevas formas de cuidar el planeta.
+                </p>
+                <a href="./listadoEventos.html" class="back-button">← Volver al listado</a>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-content">
             <img src="./images/minsait.jpg" alt="Logo Minsait" class="footer-logo">
             <span>&copy; 2025 Portal de gestión de eventos sostenibles. Todos los derechos reservados.</span>
         </div>
     </footer>
-    <script src="./js/script.js"></script>
 </body>
 </html>
