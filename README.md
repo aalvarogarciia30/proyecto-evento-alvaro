@@ -33,7 +33,8 @@ Esta carpeta contiene 4 carpetas y los .html para la página web:
 * /fonts - Contiene las fuentes personalizadas.
 * /images - Contiene las imágenes utilizadas en la página web.
 * /js - Contiene los archivos JavaScript.
-* ![Texto](./portal_eventos_sostenibles.jpg)
+
+  ![Texto](./portal_eventos_sostenibles.jpg)
 
 # Base de datos
 
