@@ -1,6 +1,6 @@
 # Proyecto de gestión de eventos sostenibles de prácticas en INDRA
 
-    ![1749120504102](image/README/1749120504102.png)
+    ![1749120504102](./html/images/minsait.jpg)
 
 ---
 
@@ -13,7 +13,11 @@ El repositorio consiste de 4 carpetas con cada parte del proyecto y dos imágene
 * /sql - Contiene los scripts con la creación de las tablas propuestas.
 * /src - Contiene el programa en java.
 * grafo_ramas_git.jpg - Es la imágen del grafo de ramas de GitHub.
+
+  ![1749121730838](./grafo_ramas_git.jpg)
 * portal_eventos_sostenibles.jpg - Es la imágen del inicio de la página web.
+
+  ![texto](./portal_eventos_sostenibles.JPG)
 
 # Sistemas informáticos
 
