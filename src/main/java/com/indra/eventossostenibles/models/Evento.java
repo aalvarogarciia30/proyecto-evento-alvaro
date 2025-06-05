@@ -65,7 +65,7 @@ public class Evento {
     }
     @Override
     public String toString() {
-        return "Evento: " + nombre + ", Fecha: " + fecha + ", Duración: " + duracion + " horas, Estado: " + estado +
+        return  nombre + ", " + fecha + ", " + duracion + "h, Estado: " + estado +
                ", Organizador: " + nombreOrganizador + ", Ubicación: " + ubicacion + ", Categoría: " + categoria;
     }
 }

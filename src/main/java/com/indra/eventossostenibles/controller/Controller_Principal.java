@@ -258,7 +258,7 @@ public class Controller_Principal {
             System.out.println(organizador);
         }
         System.out.println("Ingrese el nombre del organizador para ver sus eventos:");
-        String nombreOrganizador = scanner.next();
+        String nombreOrganizador = scanner.nextLine();
         if (nombreOrganizador == null || nombreOrganizador.isEmpty()) {
             System.out.println("El nombre del organizador no puede estar vacío. Volviendo al menú principal.");
             return;
