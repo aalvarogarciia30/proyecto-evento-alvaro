@@ -1,6 +1,6 @@
 # Proyecto de gestión de eventos sostenibles de prácticas en INDRA
 
-    ![minsait](./html/images/minsait.jpg)
+![Logo Minsait](./html/images/minsait.jpg)
 
 ---
 
