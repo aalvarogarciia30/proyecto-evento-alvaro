@@ -1,6 +1,6 @@
 # Proyecto de gestión de eventos sostenibles de prácticas en INDRA
 
-![Logo Minsait](./html/images/minsait.jpg)
+    ![Logo Minsait](./html/images/minsait.jpg)
 
 ---
 
@@ -23,6 +23,8 @@ El repositorio consiste de 4 carpetas con cada parte del proyecto y dos imágene
 
 Contiene una imágen de la página web abierta en el virtualBox con un servidor local (Xampp) y la documentación para la instalación desistema operativo en una maquina virtual.
 
+![Texto](./doc/CapWebServidorLocal.jpg)
+
 # Lenguaje de Marcas
 
 Esta carpeta contiene 4 carpetas y los .html para la página web:
@@ -31,6 +33,8 @@ Esta carpeta contiene 4 carpetas y los .html para la página web:
 * /fonts - Contiene las fuentes personalizadas.
 * /images - Contiene las imágenes utilizadas en la página web.
 * /js - Contiene los archivos JavaScript.
+
+  ![Texto](./portal_eventos_sostenibles.jpg)
 
 # Base de datos
 
