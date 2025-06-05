@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <a href="./index.html">
+                <img src="./images/minsait.jpg" alt="Logo Minsait" class="header-logo">
+            </a>
+            Portal de gestión de eventos sostenibles
+        </h1>
+        <nav>
+            <div class="nav-links">
+                <a href="./index.html">Inicio</a>
+                <a href="./listadoEventos.html">Lista de eventos</a>
+                <div class="dropdown">
+                    <a class="dropbtn">Detalles de eventos ▼</a>
+                    <div class="dropdown-content">
+                        <a href="./evento1.html">Evento 1</a>
+                        <a href="./evento2.html">Evento 2</a>
+                        <a href="./evento3.html">Evento 3</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Aquí estarán la pagina principal con el carrusel de eventos-->
+    <div id="carrousel-title" class="carrousel-title"></div>
+    <div class="carrousel">
+        <a href="./evento1.html">
+            <img class="carrousel-item" src="./images/evento1.jpg" alt="Imagen 1">
+        </a>
+        <a href="./evento2.html">
+            <img class="carrousel-item" src="./images/evento2.jpg" alt="Imagen 2">
+        </a>
+        <a href="./evento3.html">
+            <img class="carrousel-item" src="./images/evento3.jpg" alt="Imagen 3">
+        </a>
+    </div>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <img src="./images/minsait.jpg" alt="Logo Minsait" class="footer-logo">
+            <span>&copy; 2025 Portal de gestión de eventos sostenibles. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
