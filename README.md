@@ -1,6 +1,6 @@
 # Proyecto de gestión de eventos sostenibles de prácticas en INDRA
 
-    ![1749120504102](./html/images/minsait.jpg)
+    ![minsait](./html/images/minsait.jpg)
 
 ---
 
@@ -21,9 +21,7 @@ El repositorio consiste de 4 carpetas con cada parte del proyecto y dos imágene
 
 # Sistemas informáticos
 
-Contiene una imágen de la página web abierta en el virtualBox con un servidor local (Xampp) y la documentación para la instalación del
-
-sistema operativo en una maquina virtual.
+Contiene una imágen de la página web abierta en el virtualBox con un servidor local (Xampp) y la documentación para la instalación desistema operativo en una maquina virtual.
 
 # Lenguaje de Marcas
 
