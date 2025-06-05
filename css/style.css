@@ -16,7 +16,6 @@ body {
     background-image: url('../images/fondoPantalla.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 a {
     text-decoration: none;
@@ -24,15 +23,15 @@ a {
 header{
     background:#d4d5d0;
     color: #1e514d;
-    padding: 1.5rem 0 1rem 0;
+    padding: 24px 0 16px 0;
     text-align: center;
     font-family: 'AvenirBook', sans-serif;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px;
 }
 header h1 {
     margin: 0;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 35.2px;
     letter-spacing: 1px;
 }
 .header-logo {
@@ -41,50 +40,44 @@ header h1 {
     vertical-align: middle;
     margin-right: 12px;
     border-radius: 6px;
-    box-shadow: 0 1px 4px rgba(44,62,80,0.07);
-}.dropdown {
+    box-shadow: 0 1px 4px ;
+}
+.dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropbtn {
     cursor: pointer;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
+    font-size: 17.6px;
+    padding: 8px 16px;
     border-radius: 4px;
     background: none;
     border: none;
     outline: none;
     transition: background 0.2s;
     display: inline-block;
-    user-select: none;
     position: relative;
-    z-index: 11;
 }
-
 .dropbtn:focus {
     background: #388e3c;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #fff;
     min-width: 170px;
-    box-shadow: 0 8px 16px rgba(44,62,80,0.12);
-    z-index: 10;
+    box-shadow: 0 8px 16px ;
     border-radius: 6px;
     margin-top: 0.1rem;
     left: 0;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
-    padding-top: 0.2rem;
+    padding-top: 3.2px;
 }
-
 .dropdown:hover .dropdown-content,
 .dropdown:focus-within .dropdown-content,
 .dropdown-content:hover,
@@ -93,23 +86,20 @@ header h1 {
     opacity: 1;
     pointer-events: auto;
 }
-
 .dropdown-content a {
     color: #2e7d32;
-    padding: 0.7rem 1.2rem;
+    padding: 11.2px 19.2px;
     text-decoration: none;
     display: block;
     border-bottom: 1px solid #e0e0e0;
-    font-size: 1rem;
+    font-size: 16px;
     border-radius: 0;
     background: none;
     transition: background 0.2s;
 }
-
 .dropdown-content a:last-child {
     border-bottom: none;
 }
-
 .dropdown-content a:hover,
 .dropdown-content a:focus {
     background-color: #e8f5e9;
@@ -118,15 +108,15 @@ header h1 {
 .nav-links {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin-top: 1rem;
+    gap: 32px;
+    margin-top: 16px;
 }
 .nav-links a {
     color: #1e514d;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
+    font-size: 17.6px;
+    padding: 8px 16px;
     border-radius: 4px;
     transition: background 0.2s;
 }
@@ -137,21 +127,21 @@ header h1 {
     position: relative;
     width: 500px;
     height: 480px;
-    margin: 2rem auto;
+    margin: 32px auto;
     text-align: center;
-    padding-bottom: 40px; 
+    padding-bottom: 40px;
 }
 .carrousel-title {
     display: block;
-    margin: 2.2rem auto 0.7rem auto;
-    padding: 0.7em 2em;
+    margin: 35.2px auto 11.2px auto;
+    padding: 11.2px 32px;
     background: rgba(212, 213, 208, 0.92);
     color: #1e514d;
     border-radius: 12px;
     font-family: 'AvenirBook', sans-serif;
-    font-size: 1.35rem;
+    font-size: 21.6px;
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    box-shadow: 0 2px 8px;
     max-width: 90vw;
     width: fit-content;
     letter-spacing: 0.5px;
@@ -172,7 +162,7 @@ header h1 {
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
-    background: #d4d5d0; 
+    background: #d4d5d0;
     opacity: 0.97;
     padding: 0;
     margin-bottom: 0;
@@ -219,20 +209,19 @@ header h1 {
 }
 main {
     flex: 1;
-    padding: 2rem 0 2rem 0;
+    padding: 32px 0 32px 0;
     max-width: 900px;
     margin: 0 auto;
 }
 .event-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 32px;
     justify-content: center;
 }
 .event-card {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
     overflow: hidden;
     width: 300px;
     transition: transform 0.2s;
@@ -241,7 +230,6 @@ main {
 }
 .event-card:hover {
     transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 6px 24px rgba(44, 62, 80, 0.13);
 }
 .event-image {
     width: 100%;
@@ -249,15 +237,15 @@ main {
     object-fit: cover;
 }
 .event-info {
-    padding: 1.2rem;
+    padding: 19.2px;
 }
 .event-info h2 {
     margin-top: 0;
     color: #2e7d32;
-    font-size: 1.3rem;
+    font-size: 20.8px;
 }
 .event-info p {
-    margin: 0.5rem 0;
+    margin: 8px 0;
     color: #444;
 }
 .event-detail {
@@ -266,34 +254,34 @@ main {
     align-items: center;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
-    padding: 2rem;
+    box-shadow: 0 2px 12px ;
+    padding: 32px;
     max-width: 600px;
-    margin: 2rem auto;
+    margin: 32px auto;
 }
 .event-detail-image {
     width: 100%;
     max-width: 400px;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 .event-detail-info h2 {
     color: #2e7d32;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 .event-detail-info p {
     color: #444;
-    margin: 0.3rem 0;
+    margin: 4.8px 0;
 }
 .event-list a {
     text-decoration: none;
 }
 .back-button {
     display: inline-block;
-    margin-top: 1.5rem;
+    margin-top: 24px;
     color: #fff;
     background: #2e7d32;
-    padding: 0.6rem 1.2rem;
+    padding: 9.6px 19.2px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
@@ -306,9 +294,9 @@ footer {
     background: #d4d5d0;
     color: #1e514d;
     text-align: center;
-    padding: 1.2rem 0 1rem 0;
+    padding: 19.2px 0 16px 0;
     margin-top: auto;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 -2px 8px;
 }
 .footer-content {
     display: flex;
@@ -317,17 +305,15 @@ footer {
     gap: 8px;
     max-width: 900px;
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 16px;
     font-family: 'AvenirBook', sans-serif;
     letter-spacing: 0.5px;
 }
-
-
 .footer-logo {
     height: 60px;
     width: auto;
     vertical-align: middle;
     margin-right: 10px;
     border-radius: 6px;
-    box-shadow: 0 1px 4px rgba(44,62,80,0.07);
+    box-shadow: 0 1px 4px ;
 }
