@@ -51,3 +51,9 @@ En la carpeta **src** se encuentra el código fuente del programa de java con do
 * **/test**: En la que se encuentran los test para comprobar el correcto funcionamiento del programa.
 
     /java/com/indra/eventossostenibles - Paquete base de pruebas del proyecto.
+
+# Entornos de desarrollo
+
+Ha consistido en llevar el proyecto mediante GitHub, aunque al principio no tenía muy claro como funcionaba, ya que nunca había trabajado con algo así, luego empecé a mejorarlo.
+
+![Texto](./grafo_ramas_git.jpg)
