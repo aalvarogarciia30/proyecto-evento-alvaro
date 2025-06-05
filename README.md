@@ -34,8 +34,6 @@ Esta carpeta contiene 4 carpetas y los .html para la página web:
 * /images - Contiene las imágenes utilizadas en la página web.
 * /js - Contiene los archivos JavaScript.
 
-  ![Texto](./portal_eventos_sostenibles.jpg)
-
 # Base de datos
 
 Esta carpeta contiene el script para la creación de las tablas, el DER en formato pdf, realizado en draw.io y por último la tabla de descripción de entidades en formato pdf.
